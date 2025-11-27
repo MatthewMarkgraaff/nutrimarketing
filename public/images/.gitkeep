@@ -1,0 +1,62 @@
+# This file ensures the images directory is tracked in git
+# Place your Figma exported assets here:
+
+# Hero section images:
+# - hero-image.png (1296x580px)
+# - topographic.png (826.5x691.7px)
+
+# App store badges:
+# - app-store-badge.png (119.7x40px)
+# - google-play-badge.png (134.9x40px)
+
+# Feature icons:
+# - nutrition-icon.png (56x56px)
+# - science-icon.png (56x56px)
+# - progress-icon.png (56x56px)
+# - adaptive-icon.png (56x56px)
+# - training-icon.png (56x56px)
+# - products-icon.png (56x56px)
+
+# Product images:
+# - phone-1.png (363.2x525.4px)
+# - phone-2.png (361.7x526.5px)
+# - phone-3.png (290x567.3px)
+# - union.png (724.9x123.3px)
+
+# Plan section images:
+# - clock-icon.png (14.9x14.9px)
+# - maurten-drink.png (52x52px)
+# - ta-energy.png (52x52px)
+# - maurten-gel.png (52x52px)
+# - ta-cassis.png (52x52px)
+# - runner-background.jpg (942x628px)
+
+# Benefits section:
+# - benefits-table.png (636x424.6px)
+# - buy-icon.png (24x24px)
+# - water-bottle-icon.png (24x24px)
+# - science-small-icon.png (24x24px)
+# - check-icon.png (24x24px)
+# - close-icon.png (24x24px)
+
+# Testimonials:
+# - star-icon.png (16x16px)
+# - testimonial-1.jpg (48x48px)
+# - testimonial-2.jpg (48x48px)
+# - testimonial-3.jpg (48x48px)
+# - quote-icon.png (48x48px)
+
+# Footer images:
+# - footer-line.png (1363x24px)
+# - facebook-icon.png (36x36px)
+# - twitter-icon.png (36x36px)
+# - instagram-icon.png (36x36px)
+# - email-icon.png (20x20px)
+# - phone-icon.png (20x20px)
+# - location-icon.png (20x20px)
+
+# Header/Logo images:
+# - logo-union.png (60x60px)
+# - logo-shape.png (50x50px)
+# - nb-text.png (50.1x13.8px)
+# - formes-text.png (227.7x24px)
