@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-2 items-start pb-12 md:pb-12 pt-12 px-6 md:px-[72px] w-full relative">
+    <div className="flex flex-col gap-2 items-start pb-12 md:pb-12 pt-12 px-6 md:px-[72px] w-full relative bg-white">
       {/* Topographic Background */}
       <div className="absolute bottom-[24%] left-[43%] right-0 top-0 hidden lg:block">
         <div className="absolute inset-0">
