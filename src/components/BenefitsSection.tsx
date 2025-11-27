@@ -81,7 +81,7 @@ export default function BenefitsSection() {
 
       <div className="absolute h-[424.605px] right-0 top-[-38px] w-[636.001px] hidden xl:block overflow-hidden">
         <Image
-          src="/images/comparison-bg.jpg"
+          src="/images/comparison-bg.png"
           alt="Comparison Background"
           fill
           className="object-cover object-left"
