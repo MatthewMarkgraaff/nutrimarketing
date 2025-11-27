@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-2 items-start pb-12 md:pb-12 pt-12 px-6 md:px-[72px] w-full relative bg-white">
+    <div className="flex flex-col gap-2 items-start pb-12 md:pb-12 pt-8 md:pt-12 px-6 md:px-[72px] w-full relative bg-white">
       {/* Topographic Background */}
       <div className="absolute bottom-[24%] left-[43%] right-0 top-0 hidden lg:block">
         <div className="absolute inset-0">
@@ -30,7 +30,7 @@ export default function Hero() {
       </div>
       
       {/* Hero Text Container */}
-      <div className="absolute bottom-12 md:bottom-[120px] left-8 md:left-[120px] flex flex-col gap-3 md:gap-[16px] items-start text-white max-w-[calc(100%-4rem)] md:max-w-[450px]">
+      <div className="absolute bottom-12 md:bottom-[120px] left-8 md:left-[120px] flex flex-col gap-3 md:gap-[16px] items-start text-white max-w-[calc(100%-4rem)] md:max-w-[450px] p-6">
         <div className="flex flex-col font-montserrat font-bold text-[20px] md:text-[56px] tracking-[-1px] md:tracking-[-2.8px] leading-normal">
           <p className="mb-0">Fuel Smarter.</p>
           <p>Go Farther</p>
