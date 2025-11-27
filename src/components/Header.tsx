@@ -24,7 +24,7 @@ export default function Header() {
       {/* App Store Badges */}
       <div className="flex gap-3 md:gap-4 items-center">
         <Link href="https://testflight.apple.com/join/fTGJcDCN" target="_blank" rel="noopener noreferrer">
-          <div className="h-[22px] w-[67px] md:h-[28px] md:w-[84px] relative overflow-hidden">
+          <div className="h-[26px] w-[80px] md:h-[34px] md:w-[101px] relative overflow-hidden">
             <Image
               src="/appstore.svg"
               alt="Download on the App Store"
@@ -34,7 +34,7 @@ export default function Header() {
           </div>
         </Link>
         <Link href="https://play.google.com/store/apps/details?id=com.nutribay.mobile" target="_blank" rel="noopener noreferrer">
-          <div className="h-[22px] w-[75px] md:h-[28px] md:w-[94px] relative">
+          <div className="h-[26px] w-[90px] md:h-[34px] md:w-[113px] relative">
             <Image
               src="/gplay.svg"
               alt="Get it on Google Play"

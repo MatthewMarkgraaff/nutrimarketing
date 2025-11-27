@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -53,42 +54,42 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-3 items-start w-full">
-            <div className="bg-[#121312] rounded-lg w-9 h-9">
+            <Link href="https://www.facebook.com/nutribay" target="_blank" rel="noopener noreferrer" className="bg-[#121312] rounded-lg w-9 h-9 hover:cursor-pointer transition-opacity hover:opacity-80">
               <div className="flex items-center justify-center w-9 h-9">
                 <div className="w-5 h-5 relative">
                   <Image
                     src="/images/social-icon-1.svg"
-                    alt="Social Media"
+                    alt="Facebook"
                     fill
                     className="object-contain"
                   />
                 </div>
               </div>
-            </div>
-            <div className="bg-[#121312] rounded-lg w-9 h-9">
+            </Link>
+            <Link href="https://www.instagram.com/nutribayofficial/" target="_blank" rel="noopener noreferrer" className="bg-[#121312] rounded-lg w-9 h-9 hover:cursor-pointer transition-opacity hover:opacity-80">
               <div className="flex items-center justify-center w-9 h-9">
                 <div className="w-5 h-5 relative">
                   <Image
                     src="/images/social-icon-2.svg"
-                    alt="Social Media"
+                    alt="Instagram"
                     fill
                     className="object-contain"
                   />
                 </div>
               </div>
-            </div>
-            <div className="bg-[#121312] rounded-lg w-9 h-9">
+            </Link>
+            <Link href="https://www.youtube.com/@nutri-bay581" target="_blank" rel="noopener noreferrer" className="bg-[#121312] rounded-lg w-9 h-9 hover:cursor-pointer transition-opacity hover:opacity-80">
               <div className="flex items-center justify-center w-9 h-9">
                 <div className="w-5 h-5 relative">
                   <Image
                     src="/images/social-icon-3.svg"
-                    alt="Social Media"
+                    alt="YouTube"
                     fill
                     className="object-contain"
                   />
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -109,9 +110,9 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <p className="font-inter font-normal text-[13px] md:text-[15px] text-[#737473] leading-[20px] md:leading-[22.5px]">
+              <Link href="mailto:contact@nutri-bay.com" className="font-inter font-normal text-[13px] md:text-[15px] text-[#737473] leading-[20px] md:leading-[22.5px] hover:text-white transition-colors">
                 contact@nutri-bay.com
-              </p>
+              </Link>
             </div>
             <div className="flex gap-3 items-center w-full">
               <div className="w-4 h-4 md:w-5 md:h-5 relative">
@@ -122,9 +123,9 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <p className="font-inter font-normal text-[13px] md:text-[15px] text-[#737473] leading-[20px] md:leading-[22.5px]">
+              <Link href="tel:+352691873717" className="font-inter font-normal text-[13px] md:text-[15px] text-[#737473] leading-[20px] md:leading-[22.5px] hover:text-white transition-colors">
                 +352 691 87 37 17
-              </p>
+              </Link>
             </div>
             <div className="flex gap-3 items-start w-full">
               <div className="w-4 h-4 md:w-5 md:h-5 relative">
@@ -159,19 +160,14 @@ export default function Footer() {
         <div className="">
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 items-center">
             <div className="">
-              <p className="font-inter font-normal text-[#737473] text-[11px] md:text-[13px] leading-[16px] md:leading-[19.5px]">
+              <Link href="https://en.nutri-bay.com/pages/privacy-policy-nutri-bay-com" target="_blank" rel="noopener noreferrer" className="font-inter font-normal text-[#737473] text-[11px] md:text-[13px] leading-[16px] md:leading-[19.5px] hover:text-white transition-colors">
                 Privacy Policy
-              </p>
+              </Link>
             </div>
             <div className="">
-              <p className="font-inter font-normal text-[#737473] text-[11px] md:text-[13px] leading-[16px] md:leading-[19.5px]">
+              <Link href="https://en.nutri-bay.com/pages/terms-and-conditions" target="_blank" rel="noopener noreferrer" className="font-inter font-normal text-[#737473] text-[11px] md:text-[13px] leading-[16px] md:leading-[19.5px] hover:text-white transition-colors">
                 Terms of Service
-              </p>
-            </div>
-            <div className="">
-              <p className="font-inter font-normal text-[#737473] text-[11px] md:text-[13px] leading-[16px] md:leading-[19.5px]">
-                Cookie Policy
-              </p>
+              </Link>
             </div>
           </div>
         </div>

@@ -130,9 +130,9 @@ const FeatureCard = ({ icon, title, description, className }: {
   description: string;
   className?: string;
 }) => (
-  <div className={`backdrop-blur-[56px] bg-white border border-[#e7e9e9] flex flex-col gap-6 items-start p-6 rounded-2xl ${className}`}>
-    <div className="backdrop-blur-[34px] bg-white/20 flex gap-2 items-center p-2 rounded-lg">
-      <div className="w-10 h-10 relative">
+  <div className={`backdrop-blur-[56px] bg-white border border-[#e7e9e9] flex flex-col gap-4 items-start p-6 rounded-lg h-[240px] w-full ${className}`}>
+    <div className="bg-[#0d0e0d] flex gap-2 items-center p-2 rounded-lg">
+      <div className="w-8 h-8 relative">
         <Image
           src={icon}
           alt="Feature Icon"
@@ -141,10 +141,10 @@ const FeatureCard = ({ icon, title, description, className }: {
         />
       </div>
     </div>
-    <div className="flex flex-col font-montserrat font-bold justify-center text-[28px] text-[#161816] tracking-[-1.4px] leading-normal min-w-full w-min">
+    <div className="flex flex-col font-montserrat font-bold justify-center text-[18px] text-[#161816] tracking-[-0.9px] leading-normal min-w-full w-min">
       <div dangerouslySetInnerHTML={{ __html: title }} />
     </div>
-    <div className="flex flex-col font-inter font-normal justify-center text-[24px] text-[#161816] tracking-[-1.2px] leading-normal">
+    <div className="flex flex-col font-inter font-normal justify-center text-[14px] text-[#737473] tracking-[-0.7px] leading-normal flex-1">
       <p>{description}</p>
     </div>
   </div>
@@ -152,7 +152,7 @@ const FeatureCard = ({ icon, title, description, className }: {
 
 export default function PlanSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center px-4 md:px-[78px] py-12 md:py-16 w-full relative overflow-hidden -mt-16">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center px-4 md:px-[78px] py-20 md:py-24 w-full relative -mt-16">
       <div className="flex flex-col items-start rounded-[24px] w-full max-w-[375px] lg:w-[375px] relative z-10">
         <div className="flex flex-col gap-4 h-[209px] items-start w-full">
           <div className="flex flex-col gap-2 items-start px-4 w-full">
@@ -223,7 +223,7 @@ export default function PlanSection() {
         </div>
       </div>
 
-      <div className="absolute h-[628px] left-[50%] top-[-150px] w-[621px] hidden lg:block transform -translate-x-1/2 z-0">
+      <div className="absolute h-[628px] left-[50%] top-[-80px] w-[621px] hidden lg:block transform -translate-x-1/2 z-0">
         <div className="absolute bottom-0 h-[628px] right-[-235px] w-[942px]">
           <Image
             src="/images/athlete-bg.jpg"
@@ -240,7 +240,7 @@ export default function PlanSection() {
         <div className="absolute bg-gradient-to-b bottom-0 from-[rgba(254,254,254,0.3)] h-[98.74px] left-[52.88px] to-[#fdfdfd] w-[151.451px]" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[700px] lg:w-[700px] relative z-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full max-w-[520px] lg:w-[520px] relative z-10 place-items-center">
         <FeatureCard
           icon="/images/heartbeat-icon.svg"
           title="Athlete progress <br/>tracking"

@@ -44,11 +44,11 @@ export default function FeaturesSection() {
       </div>
       
       <div className="flex items-center relative w-full lg:w-auto">
-        <div className="h-[350px] w-[280px] md:h-[450px] md:w-[360px] lg:h-[500px] lg:w-[400px] relative mx-auto">
+        <div className="h-[450px] w-[380px] md:h-[550px] md:w-[480px] lg:h-[600px] lg:w-[520px] relative mx-auto">
           {/* Left phone - rotated left */}
-          <div className="absolute h-[280px] w-[140px] md:h-[360px] md:w-[180px] lg:h-[400px] lg:w-[200px] left-0 top-[10%] z-[3]">
+          <div className="absolute h-[350px] w-[175px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] left-0 top-[10%] z-[3]">
             <div className="rotate-[-12deg] h-full w-full">
-              <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] shadow-lg">
+              <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
                 <Image
                   src="/images/phone-1.jpg"
                   alt="Phone Screenshot 1"
@@ -60,9 +60,9 @@ export default function FeaturesSection() {
           </div>
           
           {/* Right phone - rotated right */}
-          <div className="absolute h-[280px] w-[140px] md:h-[360px] md:w-[180px] lg:h-[400px] lg:w-[200px] right-0 top-[10%] z-[3]">
+          <div className="absolute h-[350px] w-[175px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] right-0 top-[10%] z-[3]">
             <div className="rotate-[12deg] h-full w-full">
-              <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] shadow-lg">
+              <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
                 <Image
                   src="/images/phone-2.jpg"
                   alt="Phone Screenshot 2"
@@ -74,8 +74,8 @@ export default function FeaturesSection() {
           </div>
           
           {/* Center phone - straight */}
-          <div className="absolute h-[300px] w-[150px] md:h-[380px] md:w-[190px] lg:h-[420px] lg:w-[210px] left-1/2 transform -translate-x-1/2 top-0 z-[4]">
-            <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] shadow-xl">
+          <div className="absolute h-[380px] w-[190px] md:h-[480px] md:w-[240px] lg:h-[530px] lg:w-[265px] left-1/2 transform -translate-x-1/2 top-0 z-[4]">
+            <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
               <Image
                 src="/images/phone-3.jpg"
                 alt="Phone Screenshot 3"
