@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function FeaturesSection() {
   return (
-    <div className="bg-[#f6f8fa] flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center px-4 md:px-[72px] py-12 md:py-24 w-full">
-      <div className="flex flex-col gap-8 lg:gap-10 items-start justify-center w-full lg:w-auto lg:max-w-[400px]">
+    <div className="bg-[#f6f8fa] flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center px-4 md:px-[72px] pt-12 pb-4 md:py-24 w-full">
+      <div className="flex flex-col gap-8 lg:gap-10 items-start justify-center w-full lg:w-auto lg:max-w-[400px] pt-8">
         <div className="flex flex-col gap-4 items-start">
           <div className="bg-[#0d0e0d] flex gap-2 items-center p-2 rounded-lg">
             <div className="w-6 h-6 md:w-8 md:h-8 relative">
@@ -43,10 +43,10 @@ export default function FeaturesSection() {
         </div>
       </div>
       
-      <div className="flex items-center relative w-full lg:w-auto">
-        <div className="h-[450px] w-[380px] md:h-[550px] md:w-[480px] lg:h-[600px] lg:w-[520px] relative mx-auto">
+      <div className="flex items-end lg:items-center relative w-full lg:w-auto">
+        <div className="h-[350px] w-[300px] md:h-[550px] md:w-[480px] lg:h-[600px] lg:w-[520px] relative mx-auto">
           {/* Left phone - rotated left */}
-          <div className="absolute h-[350px] w-[175px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] left-0 top-[10%] z-[3]">
+          <div className="absolute h-[280px] w-[140px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] left-0 top-[10%] z-[3]">
             <div className="rotate-[-12deg] h-full w-full">
               <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
                 <Image
@@ -60,7 +60,7 @@ export default function FeaturesSection() {
           </div>
           
           {/* Right phone - rotated right */}
-          <div className="absolute h-[350px] w-[175px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] right-0 top-[10%] z-[3]">
+          <div className="absolute h-[280px] w-[140px] md:h-[450px] md:w-[225px] lg:h-[500px] lg:w-[250px] right-0 top-[10%] z-[3]">
             <div className="rotate-[12deg] h-full w-full">
               <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
                 <Image
@@ -74,7 +74,7 @@ export default function FeaturesSection() {
           </div>
           
           {/* Center phone - straight */}
-          <div className="absolute h-[380px] w-[190px] md:h-[480px] md:w-[240px] lg:h-[530px] lg:w-[265px] left-1/2 transform -translate-x-1/2 top-0 z-[4]">
+          <div className="absolute h-[300px] w-[150px] md:h-[480px] md:w-[240px] lg:h-[530px] lg:w-[265px] left-1/2 transform -translate-x-1/2 top-0 z-[4]">
             <div className="h-full w-full relative overflow-hidden rounded-[16px] md:rounded-[24px] ">
               <Image
                 src="/images/phone-3.jpg"
@@ -86,7 +86,7 @@ export default function FeaturesSection() {
           </div>
         </div>
         
-        <div className="absolute h-[20%] left-0 top-[-3%] w-full z-[2] hidden lg:block">
+        <div className="absolute h-[20%] left-0 top-[8%] w-full z-[2]">
           <Image
             src="/images/product-info-container.svg"
             alt="Product Info"
@@ -95,7 +95,7 @@ export default function FeaturesSection() {
           />
         </div>
         
-        <div className="absolute bg-gradient-to-r blur-[12px] md:blur-[20px] bottom-[8%] filter from-[#d9d9d9] h-[4%] left-[25%] to-[#737373] w-[50%] z-[1] hidden lg:block" />
+        <div className="absolute bg-gradient-to-r blur-[12px] md:blur-[20px] bottom-[8%] filter from-[#d9d9d9] h-[4%] left-[25%] to-[#737373] w-[50%] z-[1]" />
       </div>
     </div>
   );

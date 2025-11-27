@@ -152,7 +152,7 @@ const FeatureCard = ({ icon, title, description, className }: {
 
 export default function PlanSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center px-4 md:px-[78px] py-20 md:py-24 w-full relative lg:-mt-16 bg-[#f6f8fa]">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center px-4 md:px-[78px] py-8 md:py-24 w-full relative lg:-mt-16 bg-[#f6f8fa]">
       <div className="hidden lg:flex flex-col items-start rounded-[24px] w-full lg:max-w-[375px] lg:w-[375px] relative z-10">
         <div className="flex flex-col gap-4 h-[209px] items-start w-full">
           <div className="flex flex-col gap-2 items-start px-4 w-full">
