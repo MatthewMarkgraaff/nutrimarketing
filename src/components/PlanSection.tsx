@@ -130,8 +130,8 @@ const FeatureCard = ({ icon, title, description, className }: {
   description: string;
   className?: string;
 }) => (
-  <div className={`backdrop-blur-[56px] bg-white border border-[#e7e9e9] flex flex-col gap-4 items-start p-6 rounded-lg lg:h-[240px] w-full ${className}`}>
-    <div className="bg-[#0d0e0d] flex gap-2 items-center p-2 rounded-lg">
+  <div className={`bg-white border border-[#e7e9e9] flex flex-col gap-4 items-start p-6 rounded-lg lg:h-[240px] w-full`}>
+    <div className="flex gap-2 items-center p-2 rounded-lg">
       <div className="w-8 h-8 relative">
         <Image
           src={icon}
@@ -224,7 +224,7 @@ export default function PlanSection() {
       </div>
 
       <div className="absolute h-[628px] left-[50%] top-[-80px] w-[621px] hidden lg:block transform -translate-x-1/2 z-0">
-        <div className="absolute bottom-0 h-[628px] right-[-235px] w-[942px]">
+        <div className="absolute bottom-0 h-[628px] right-[-320px] w-[942px]">
           <Image
             src="/images/athlete-bg.jpg"
             alt="Athlete Background"
@@ -245,25 +245,21 @@ export default function PlanSection() {
           icon="/images/heartbeat-icon.svg"
           title="Athlete progress <br/>tracking"
           description="Track your progress with in-app history and feedback. Simple, continual improvement."
-          className=""
         />
         <FeatureCard
           icon="/images/doc-icon.svg"
           title="Editable<br/>and adaptive plans"
           description="Updates based on experience and training feedback."
-          className="backdrop-blur-[30px] text-[#737473]"
         />
         <FeatureCard
           icon="/images/fitness-icon.svg"
           title="Training <br/>&amp; race mode"
           description="Plans adjust by intensity, duration, weather, and elevation. Precise fueling for every condition."
-          className="bg-white/20"
         />
         <FeatureCard
           icon="/images/bottle-icon.svg"
           title="Real product recommendations"
           description="Choose from top brands in our multi-brand store. It's easy to buy what you need — all in one place."
-          className="bg-white/20 text-[#737473]"
         />
       </div>
     </div>

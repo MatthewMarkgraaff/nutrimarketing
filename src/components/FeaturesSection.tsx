@@ -27,7 +27,7 @@ export default function FeaturesSection() {
           <div className="bg-[#0d0e0d] flex gap-2 items-center p-2 rounded-lg">
             <div className="w-6 h-6 md:w-8 md:h-8 relative">
               <Image
-                src="/images/science-icon.svg"
+                src="/images/material-symbols_science.png"
                 alt="Science Icon"
                 fill
                 className="object-contain"
