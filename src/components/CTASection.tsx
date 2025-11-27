@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CTASection() {
   return (
@@ -18,23 +19,27 @@ export default function CTASection() {
         
         <div className="flex flex-col gap-3 md:gap-4 items-center">
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 items-center">
-            <div className="h-10 w-[119.664px] relative overflow-hidden">
-              <Image
-                src="/images/app-store-badge.png"
-                alt="Download on the App Store"
-                fill
-                className="object-contain"
-              />
-            </div>
+            <Link href="https://testflight.apple.com/join/fTGJcDCN" target="_blank" rel="noopener noreferrer">
+              <div className="h-10 w-[119.664px] relative overflow-hidden">
+                <Image
+                  src="/appstore.svg"
+                  alt="Download on the App Store"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </Link>
             
-            <div className="h-10 w-[134.872px] relative">
-              <Image
-                src="/images/google-play-badge.png"
-                alt="Get it on Google Play"
-                fill
-                className="object-contain"
-              />
-            </div>
+            <Link href="https://play.google.com/store/apps/details?id=com.nutribay.mobile" target="_blank" rel="noopener noreferrer">
+              <div className="h-10 w-[134.872px] relative">
+                <Image
+                  src="/gplay.svg"
+                  alt="Get it on Google Play"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

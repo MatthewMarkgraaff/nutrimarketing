@@ -15,8 +15,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Newsletter Section */}
-      <div className="border-t border-b border-[#737473] flex flex-col items-center justify-center px-4 md:px-[72px] py-4 md:py-6 w-full">
+      {/* Newsletter Section - Hidden */}
+      <div className="hidden border-t border-b border-[#737473] flex-col items-center justify-center px-4 md:px-[72px] py-4 md:py-6 w-full">
         <div className="flex flex-col gap-3 md:gap-5 items-center justify-center px-4 md:px-[22px] w-full">
           <p className="font-montserrat font-bold text-[16px] md:text-[20px] text-center text-white tracking-[-0.8px] md:tracking-[-1px] leading-normal">
             Stay Updated with Nutri-bay

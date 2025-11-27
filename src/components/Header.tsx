@@ -5,29 +5,44 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div className="bg-white border-b border-[#e7e9e9] flex gap-3 md:gap-6 items-center justify-center px-4 md:px-[72px] py-3 md:py-4 w-full">
+    <div className="bg-white border-b border-[#e7e9e9] flex items-center justify-between px-3 md:px-[50px] py-4 md:py-5 w-full">
+      {/* Logo Container */}
       <div className="flex gap-2 items-center">
-        <div className="bg-[#161816] rounded-lg w-[40px] h-[40px] md:w-[60px] md:h-[60px] relative overflow-hidden">
+        <div className="h-[17px] w-[60px] md:h-[22px] md:w-[80px] relative">
           <Image
-            src="/images/logo-icon.svg"
-            alt="NutriBay Icon"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute bg-[#040504] border border-[#0d0e0d] flex items-center justify-center right-0 top-[23px] md:top-[34px] px-[2px] rounded-[8px] md:rounded-[12px] translate-x-[-20px] md:translate-x-[-30px]">
-            <span className="font-montserrat font-bold italic text-[6px] md:text-[8px] text-white leading-normal">
-              Beta
-            </span>
-          </div>
-        </div>
-        <div className="h-4 w-[140px] md:h-6 md:w-[227.698px] relative">
-          <Image
-            src="/images/logo-text.svg"
-            alt="NutriBay"
+            src="/images/nutribay-logo.svg"
+            alt="NutriBay Logo"
             fill
             className="object-contain"
           />
         </div>
+        <div className="flex flex-col font-montserrat font-bold italic justify-center text-[13px] md:text-[17px] text-[#161816] text-center leading-[1.1]">
+          <p>Nutri-bay</p>
+        </div>
+      </div>
+
+      {/* App Store Badges */}
+      <div className="flex gap-3 md:gap-4 items-center">
+        <Link href="https://testflight.apple.com/join/fTGJcDCN" target="_blank" rel="noopener noreferrer">
+          <div className="h-[22px] w-[67px] md:h-[28px] md:w-[84px] relative overflow-hidden">
+            <Image
+              src="/appstore.svg"
+              alt="Download on the App Store"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </Link>
+        <Link href="https://play.google.com/store/apps/details?id=com.nutribay.mobile" target="_blank" rel="noopener noreferrer">
+          <div className="h-[22px] w-[75px] md:h-[28px] md:w-[94px] relative">
+            <Image
+              src="/gplay.svg"
+              alt="Get it on Google Play"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </Link>
       </div>
     </div>
   );
