@@ -130,7 +130,7 @@ const FeatureCard = ({ icon, title, description, className }: {
   description: string;
   className?: string;
 }) => (
-  <div className={`backdrop-blur-[56px] bg-white border border-[#e7e9e9] flex flex-col gap-4 items-start p-6 rounded-lg h-[240px] w-full ${className}`}>
+  <div className={`backdrop-blur-[56px] bg-white border border-[#e7e9e9] flex flex-col gap-4 items-start p-6 rounded-lg lg:h-[240px] w-full ${className}`}>
     <div className="bg-[#0d0e0d] flex gap-2 items-center p-2 rounded-lg">
       <div className="w-8 h-8 relative">
         <Image
@@ -152,8 +152,8 @@ const FeatureCard = ({ icon, title, description, className }: {
 
 export default function PlanSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center px-4 md:px-[78px] py-20 md:py-24 w-full relative -mt-16">
-      <div className="flex flex-col items-start rounded-[24px] w-full max-w-[375px] lg:w-[375px] relative z-10">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center px-4 md:px-[78px] py-20 md:py-24 w-full relative lg:-mt-16">
+      <div className="hidden lg:flex flex-col items-start rounded-[24px] w-full lg:max-w-[375px] lg:w-[375px] relative z-10">
         <div className="flex flex-col gap-4 h-[209px] items-start w-full">
           <div className="flex flex-col gap-2 items-start px-4 w-full">
             <p className="font-montserrat font-bold h-5 text-[16px] text-[#ec4b2d] tracking-[-0.8px] uppercase leading-normal w-[343px]">
@@ -240,7 +240,7 @@ export default function PlanSection() {
         <div className="absolute bg-gradient-to-b bottom-0 from-[rgba(254,254,254,0.3)] h-[98.74px] left-[52.88px] to-[#fdfdfd] w-[151.451px]" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full max-w-[520px] lg:w-[520px] relative z-10 place-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full lg:max-w-[520px] lg:w-[520px] relative z-10">
         <FeatureCard
           icon="/images/heartbeat-icon.svg"
           title="Athlete progress <br/>tracking"
