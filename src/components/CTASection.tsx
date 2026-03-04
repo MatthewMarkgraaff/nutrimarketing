@@ -19,7 +19,7 @@ export default function CTASection() {
         
         <div className="flex flex-col gap-3 md:gap-4 items-center">
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 items-center">
-            <Link href="https://testflight.apple.com/join/NsTf8wrB" target="_blank" rel="noopener noreferrer">
+            <Link href="https://testflight.apple.com/join/UHyG3V2t" target="_blank" rel="noopener noreferrer">
               <div className="h-10 w-[119.664px] relative overflow-hidden">
                 <Image
                   src="/appstore.svg"
