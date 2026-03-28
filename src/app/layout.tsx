@@ -26,7 +26,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Nutri-Bay mobile app | Fuel Smarter. Go Further",
-  description: "Personalized fueling strategies, backed by science, built for performance. Download our beta app today!",
+  description: "Personalized fueling strategies, backed by science, built for performance. Download our app today!",
   icons: {
     icon: "/icons/icon.webp",
   },

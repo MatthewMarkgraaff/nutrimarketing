@@ -30,10 +30,10 @@ export default function Hero() {
           {/* App Store Badges */}
           <div className="flex flex-col gap-3 md:gap-4 items-center">
             <div className="flex flex-col font-montserrat font-bold italic text-[15px] md:text-[32px] text-center text-white tracking-[-0.75px] leading-normal">
-              <p>Download our beta</p>
+              <p>Download now</p>
             </div>
             <div className="flex gap-3 md:gap-4 items-center justify-center">
-              <Link href="https://testflight.apple.com/join/UHyG3V2t" target="_blank" rel="noopener noreferrer">
+              <Link href="https://apps.apple.com/us/app/nutri-bay/id6759740619" target="_blank" rel="noopener noreferrer">
                 <div className="h-8 md:h-10 w-[95px] md:w-[119.664px] relative overflow-hidden">
                   <Image
                     src="/appstore.svg"
@@ -43,7 +43,7 @@ export default function Hero() {
                   />
                 </div>
               </Link>
-              <Link href="https://play.google.com/store/apps/details?id=com.nutribay.mobile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://play.google.com/store/apps/details?id=com.nutribay.app" target="_blank" rel="noopener noreferrer">
                 <div className="h-8 md:h-10 w-[107px] md:w-[134.872px] relative">
                   <Image
                     src="/gplay.svg"

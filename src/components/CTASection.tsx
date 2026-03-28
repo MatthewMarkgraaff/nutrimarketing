@@ -13,13 +13,13 @@ export default function CTASection() {
         
         <div className="w-full text-center">
           <div className="flex flex-col font-montserrat font-bold justify-center text-[24px] md:text-[28px] text-[#161816] tracking-[-1.2px] md:tracking-[-1.4px] leading-normal">
-            <p>Try out our beta app today!</p>
+            <p>Try out our app today!</p>
           </div>
         </div>
         
         <div className="flex flex-col gap-3 md:gap-4 items-center">
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 items-center">
-            <Link href="https://testflight.apple.com/join/UHyG3V2t" target="_blank" rel="noopener noreferrer">
+            <Link href="https://apps.apple.com/us/app/nutri-bay/id6759740619" target="_blank" rel="noopener noreferrer">
               <div className="h-10 w-[119.664px] relative overflow-hidden">
                 <Image
                   src="/appstore.svg"
@@ -30,7 +30,7 @@ export default function CTASection() {
               </div>
             </Link>
             
-            <Link href="https://play.google.com/store/apps/details?id=com.nutribay.mobile" target="_blank" rel="noopener noreferrer">
+            <Link href="https://play.google.com/store/apps/details?id=com.nutribay.app" target="_blank" rel="noopener noreferrer">
               <div className="h-10 w-[134.872px] relative">
                 <Image
                   src="/gplay.svg"
